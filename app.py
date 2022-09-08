@@ -212,8 +212,6 @@ def function():
                     coordinates = convert_address(address)
                     display_map(coordinates)
 
-    st.write('---')
-
 function()
 
 st.experimental_memo.clear()
