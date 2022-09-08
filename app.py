@@ -28,7 +28,7 @@ st.markdown(hide_st_style, unsafe_allow_html = True)
 def function():
 
     st.title('God\'s Eye')
-    st.write('Find location from an image (Inspired from Fast & Furious 7)')
+    st.write('Find location from image (Inspired from Fast & Furious 7)')
 
     st.write('---')
 
