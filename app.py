@@ -26,6 +26,11 @@ st.markdown(hide_st_style, unsafe_allow_html = True)
 
 @st.experimental_memo(suppress_st_warning=True)
 def function():
+	
+	st.title('God\'s Eye')
+    	st.write('Find location from an image')
+
+    st.write('---')
 
     def convert_address(address):
 	    #Here we use Nominatin to convert address to a latitude/longitude coordinates"
